@@ -16,6 +16,19 @@ public class Repasando {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //VARIABLES
+        /*
+        - Representa un espacio en la memoria
+        - Se guardan distintos tipos de datos
+        - Se le asignan nombres y tipos de datos
+        */
+        
+        int glenEdad = 46;
+        String glenNombre = "Glenda";
+        System.out.println("Me llamo: "+glenNombre);
+        System.out.println("Y tengo: "+glenEdad+ " años");
+        
+        
     }
     
 }
