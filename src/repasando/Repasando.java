@@ -16,6 +16,7 @@ public class Repasando {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
         //VARIABLES
         /*
         - Representa un espacio en la memoria
@@ -23,10 +24,16 @@ public class Repasando {
         - Se le asignan nombres y tipos de datos
         */
         
+       
+        String glenNombre = "Glenda Mariela Barbiero,"; 
+        String glenCurso = "2° año";
+        String carreraNombre = ("Tecnicatura Superior en Desarrollo de Software");
+        String institutoNombre = "INSTITUTO NUEVO CUYO,";
+        String profeNombre = "Nicolás Vassallo";
         int glenEdad = 46;
-        String glenNombre = "Glenda";
-        System.out.println("Me llamo: "+glenNombre);
-        System.out.println("Y tengo: "+glenEdad+ " años");
+        System.out.println("Me llamo "+glenNombre);
+        System.out.println("estoy cursando "+glenCurso+ " de la "+carreraNombre+ " en el "+institutoNombre);
+        System.out.println("y tengo "+glenEdad+ " años.");
         
         //TIPOS DE DATOS PRIMITIVOS
         /*
@@ -51,7 +58,8 @@ public class Repasando {
 Estos tipos de datos primitivos son esenciales en Java y se utilizan para declarar variables y representar diferentes tipos de valores en programas Java.
         */
         
-        
+        System.out.println("Muchas gracias profe "+profeNombre+"!!");
+        System.out.println("Glenda.");
     }
     
 }
